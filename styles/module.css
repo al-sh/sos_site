@@ -1,8 +1,8 @@
 .module {
-  background: url(../assets/background.jpg);
+  /* background: url(../assets/background.jpg);
   background-position: center;
-  background-repeat: repeat-x;
-  background-size: auto;
+  background-repeat: repeat;
+  background-size: cover;*/
 }
 
 .module-inner {
