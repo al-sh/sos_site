@@ -1,7 +1,7 @@
 .steps {
   background: url(../assets/background.jpg);
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: auto;
 }
 

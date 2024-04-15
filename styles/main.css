@@ -131,6 +131,7 @@ body {
   text-align: right;
 }
 
-.bold {
+.bold,
+b {
   font-weight: 700;
 }

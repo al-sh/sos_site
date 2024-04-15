@@ -1,7 +1,7 @@
 .problems {
   background: url(../assets/bg3_1.jpg);
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: auto;
 }
 
