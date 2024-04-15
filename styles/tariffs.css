@@ -1,0 +1,74 @@
+.tariffs {
+  padding: 0 0 40px;
+  background: url(../assets/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tariffs__list {
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+@media (max-width: 768px) {
+  .tariffs__list {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.tariffs__item {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgb(66, 66, 66);
+  border-radius: 20px;
+  backdrop-filter: blur(60px);
+  background: rgba(255, 255, 255, 0.1);
+}
+.tariffs__item-title {
+  font-family: "Oswald";
+  padding: 15px 5px;
+  border-bottom: 1px solid rgb(66, 66, 66);
+  text-align: center;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .tariffs__item .tariffs__item-title {
+    font-size: 22px;
+  }
+}
+
+.tariffs__item-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+  padding: 15px 5px;
+  text-align: center;
+}
+
+.tariffs__item-price {
+  padding: 15px 5px;
+  max-height: 60px;
+  line-height: 110px;
+  border-top: 1px solid rgb(66, 66, 66);
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .tariffs__item-price p {
+    font-size: 24px;
+  }
+}
+
+.tg-link_tariffs {
+  margin: 0 auto;
+}

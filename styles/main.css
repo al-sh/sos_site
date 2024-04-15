@@ -1,0 +1,136 @@
+@import "./header.css";
+@import "./start.css";
+@import "./steps.css";
+@import "./problems.css";
+@import "./module.css";
+@import "./materials.css";
+@import "./reviews.css";
+@import "./tariffs.css";
+@import "./about.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  background: #f2ebe3;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1300px;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.subtitle-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  border-top: 1px solid rgb(66, 66, 66);
+  border-bottom: 1px solid rgb(66, 66, 66);
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.2);
+}
+.subtitle-wrapper_bottom-none {
+  border-bottom: none;
+}
+@media (max-width: 768px) {
+  .subtitle-wrapper {
+    padding: 20px 0;
+  }
+}
+
+.title {
+  font-size: 85px;
+  font-weight: 700;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 45px;
+  }
+}
+
+.subtitle {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 48px;
+  font-family: "Oswald";
+  text-align: center;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    45deg,
+    rgb(23, 22, 21) 28%,
+    rgba(50, 47, 44, 1) 59%,
+    rgb(88, 83, 79) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+@media (max-width: 768px) {
+  .subtitle {
+    font-size: 38px;
+    line-height: 44px;
+  }
+}
+
+.text_level-3 {
+  font-size: 24px;
+  line-height: 26px;
+}
+
+@media (max-width: 768px) {
+  .text_level-3 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.regular-text {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.text_level-1 {
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-align_left {
+  text-align: left;
+}
+
+.text-align_right {
+  text-align: right;
+}
+
+.bold {
+  font-weight: 700;
+}
